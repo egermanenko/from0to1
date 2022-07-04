@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.item img {
+  border: 4px solid rgba(204, 204, 204, 0.58);
+  border-radius: 50%;
+}

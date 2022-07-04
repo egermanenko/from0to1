@@ -3,3 +3,94 @@
 *::before {
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: top right;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 46px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 240px;
+}
+
+.menu ul {
+  margin-left: 34px;
+  display: flex;
+}
+
+.menu li + li {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.menu a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #c0864c;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 141px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: left;
+  max-width: 674px;
+  margin-bottom: 46px;
+}
+
+.slick-dots {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.slick-dots button:hover {
+  background-color: #c7d953;
+  cursor: pointer;
+}
+
+.slick-dots li + li {
+  margin-left: 20px;
+}
